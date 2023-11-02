@@ -12,7 +12,7 @@ def run():
 
     count = st_autorefresh(interval=2000, limit=None, key="counter")
 
-    st.write("# Built Run and Served by LLM-GitOps 👋")
+    st.write("# Hello World: the BRS Controller 👋")
     st.write(f"Count: {count}")
 
 if __name__ == "__main__":
