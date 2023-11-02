@@ -5,11 +5,12 @@ from streamlit_autorefresh import st_autorefresh
 LOGGER = get_logger(__name__)
 
 def run():
-    count = st_autorefresh(interval=2000, limit=None, key="counter")
     st.set_page_config(
         page_title="BuildRunServe",
         page_icon="👋",
     )
+
+    count = st_autorefresh(interval=2000, limit=None, key="counter")
 
     st.write("# Served by the BRS Controller 👋")
     st.write(f"Count: {count}")
