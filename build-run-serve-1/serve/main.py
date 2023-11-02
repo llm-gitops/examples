@@ -9,7 +9,7 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Served by the BuildRunServe Controller 👋")
+    st.write("# Served by the BRS Controller 👋")
 
 if __name__ == "__main__":
     run()
