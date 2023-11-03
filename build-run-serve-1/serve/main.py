@@ -8,7 +8,7 @@ def run():
         page_title="BuildRunServe",
         page_icon="👋",
     )
-    st.write("# Hello! the BRS Controller 👋")
+    st.write("# Python Reloading ! the BRS Controller 👋")
 
 if __name__ == "__main__":
     run()
